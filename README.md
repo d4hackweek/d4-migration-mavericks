@@ -1,9 +1,8 @@
-# Sample Project
+# Migration and Wildfire Project
 
 This is an example of how teams can structure their project repositories and format their project README.md file.
 
 When creating a project repository from this template choose "Public" so other participants can follow progress. Add a "topic" to your repository details (click on the gear icon next to the "About" section on the repository page) to help others find your work (e.g. `icesat2-hackweek-2024`).
-
 
 ## Files and folders in your project repository
 
@@ -28,32 +27,58 @@ This template provides the following suggested organizaiton structure for the pr
 
 (you can remove the content here and above from your final project README.md file so that it begins with the Project or Team Name title below)
 
-# Project or Team Name
+# Migration Mavericks
 
-## Project Title and Introduction
+## Wildfire Migration project
+
+This project focuses on addressing questions around migration and displacement of people and populations after wildfire events. Our research question include:
+
+1. How are people displaced after a wildfire?
+2. What ar ethe characteristics of those displaced?
+3. What is the difference between mitigation efforts and capacity in places of origin and destination of displaced populations?
+
+
 
 Provide a brief introduction describing the proposed work. Be sure to also decribe what skills team members will get to learn and practice as part of this project.
 
 ### Collaborators
 
-List all participants on the project. Here is a good space to share your personal goals for the hackweek and things you can help with.
+| Name  | Role |
+| ------------- | ------------- |
+| Ethan | Project and Manuscript Lead |
+| Mary Angelica | Project and Manuscript Champion |
+| Sameer | Project Support and Manuscript Co-Author |
 
-| Name | Personal goals | Can help with | Role |
-| ------------- | ------------- | ------------- | ------------- |
-| Katherine J. | I want to learn specific python libraries for working with these data  | I can help with understanding our dataset, programming in R  | Project Lead |
-| Rosalind F. | Practice leading a software project | machine learning and python (scipy, scikit-learn) | Project Lead |
-| Alan T. | learning about your dataset | GitHub, Jupyter, cloud computing | Project Helper |
-| Rachel C. | learn to use github, resolve merge conflicts | I am familiar with our dataset | Team Member  |
-| ... | ... | ... | ... |
-| ... | ... | ... | ... |
+### The Problem
 
-### The problem
 
 Provide a few sentences describing the problem are you going to explore. If this is a technical exploration of software or data science methods, explain why this work is important in a broader context and specific applications of this work.
 
 ## Data and Methods
 
 ### Data
+
+We will use the following datasets:
+*Model Development*
+1. Decennial Census Data:
+   a. block-level population per household
+   b. block-level vacancy rate
+   c. block-level population
+   d. population weighted centroids
+2. CalFIRE Damage assessments reports dataset
+3. CalFIRE Fire parameters
+
+*Validation on Migration - Historical Data*
+1. ACS PUMS
+2. IRS Statistics of Income
+3. LEHD/OTM
+
+*Validation on Migration - "True" Data*
+1. Parcel Data
+2. NC-CCP Data
+
+*Validation on Migration - Independent Prediction*
+
 
 Briefly describe and provide citations for the data that will be used (size, format, how to access).
 
@@ -75,22 +100,21 @@ Optional: links to manuscripts or technical documents providing background infor
 
 ### Project goals
 
-List the specific project goals or research questions you want to answer. Think about what outcomes or deliverables you'd like to create (e.g. a series of tutorial notebooks demonstrating how to work with a dataset, results of an anaysis to answer a science question, an example of applying a new analysis method, or a new python package).
+We are interested in measuring accuracy and generating expected flows to possible destinations of migration and displacement due to wildfire events.
 
-* Goal 1
-* Goal 2
+* Goal 1 - Production of three datasets: (1) origin migration; (2) destination dataset; (3) errors dataset
+* Goal 2 - 
 * ...
 
 ### Tasks
 
-What are the individual tasks or steps that need to be taken to achieve each of the project goals identified above? What are the skills that participants will need or will learn and practice to complete each of these tasks? Think about which tasks are dependent on prior tasks, or which tasks can be performed in parallel.
-
-* Task 1 (all team members will learn to use GitHub)
-* Task 2 (team members will use the scikit-learn python library)
-  * Task 2a (assigned to team member A)
-  * Task 2b (assigned to team member B)
-* Task 3
-* ...
+* Task 1 - Generate the total *N* displaced (for the total housing units in firezone or destroyed)
+* Task 2 - Generate the actual total of *N* displaced
+* Task 3 - Generate "a posteriori" family migrations (ACS, IRS, and LEHD data)
+* Task 4 - Generate "a priori" parametric (gravity, raidation, and general radiation) (Siminietal 2012; Alis et al 2021)
+* Task 5 - Generate NCOA flows (parcels > NCOALink > output > summarize)
+* Task 6 - Generate UC-CCP flows (address within fire > COA > summarize)
+* Task 7 - Assess prediction accuracy (Task 3 & 4 versus Task 5 & 6)
 
 ## Project Results
 
