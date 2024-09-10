@@ -102,9 +102,27 @@ Optional: links to manuscripts or technical documents providing background infor
 
 We are interested in measuring accuracy and generating expected flows to possible destinations of migration and displacement due to wildfire events.
 
-* Goal 1 - Production of three datasets: (1) origin migration; (2) destination dataset; (3) errors dataset
-* Goal 2 - 
-* ...
+Project Data Goal: Production of three datasets: (1) origin migration; (2) destination dataset; (3) errors dataset
+
+Goals Per Day:
+* Day 1 (Monday)
+- Begin project scoping
+
+* Day 2 (Tuesday):
+- Complete project scoping
+- Draw outline of dataset production for the project
+- Start data integration
+
+* Day 3 (Wednesday):
+- Data integration ~ disaster perimeter, displaced *N*
+- Data integration ~ *a posteriori* predicted destinations
+- Data integration ~ *a priori* predicted destinations
+- Data integration ~ destination characteristics
+- Work with floater on code for ML based classification from UC-CCP
+- Draft slides (methods, challenges, and findings)
+
+* Day 4 (Thursday)
+- Deliver slides
 
 ### Tasks
 
