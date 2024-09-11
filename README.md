@@ -8,7 +8,7 @@ This project focuses on addressing questions around migration and displacement o
 2. What ar ethe characteristics of those displaced?
 3. What is the difference between mitigation efforts and capacity in places of origin and destination of displaced populations?
 
-Accurate population data are necessary for effective response and recovery after a disaster. Standard approaches to population estimation cannot necessarily be implemented after natural disasters, as they rely on systems that may be interrupted or unavailable. Disasters are growing in frequency and severity, magnifying an unmet need for tools to rapidly and accurately assess migration impacts of various sudden onset disasters. We compare several alternative methods for predicting migration destinations of displaced persons, and assess their performance in the case of two major wildfires in California. We plan on using datasets focused on population movements post-wildfire: the Camp Fire (2018) and Tubbs & Related Fires (2017).
+Accurate population data are necessary for effective response and recovery after a disaster. Standard approaches to population estimation cannot necessarily be implemented after natural disasters, as they rely on systems that may be interrupted or unavailable. Disasters are growing in frequency and severity, magnifying an unmet need for tools to rapidly and accurately assess migration impacts of various sudden onset disasters. We compare several alternative methods for predicting migration destinations of displaced persons, and assess their performance in the case of two major wildfires in California. We plan on using datasets focused on population movements post-wildfire: the Camp Fire (2018) and Central Sonoma-Lake-Napa Unit (LNU) Complex Fires (2017).
 
 Our project focuses on using Census demographic data, CalFire wildfire data, various datasets that measure migration, including University of California Consumer Credit Panel (UC-CCP). By integrating hazard (wildfire) data with demographic and migration data, we can begin to explain and simulate movement patterns of populations affected by wildfire. We also aim to understanding how (1) federal vulnerability measures map on to migration flows and (2) the efforts of hazard mitigation and community/government capacity in both places of origin and destination.
 
@@ -57,15 +57,26 @@ We will use the following datasets:
 1. Parcel Data
 2. NC-CCP Data
 
-
-Briefly describe and provide citations for the data that will be used (size, format, how to access).
-
 ### Existing methods
+
+- Geospatial analysis
+- Post-hazard survey analysis
+
+* Use of survey and surveillance data
+   Fussell, E., Hunter, L. M., & Gray, C. L. (2014). Measuring the       
+   environmental dimensions of human migration: The demographer’s toolkit. 
+   Global Environmental Change, 28, 182–191. 
+   https://doi.org/10.1016/j.gloenvcha.2014.07.001
+
+
 
 How would you or others traditionally try to address this problem? Provide any relevant citations to prior work.
 
 ### Proposed methods/tools
 
+- Neural Network
+- Lessons from different disciplines
+- 
 What new approaches would you like to implement for addressing your specific question(s) or application(s)?
 
 Will your project use machine learning methods? If so, we invite you to create a [model card](model-card.md)!
