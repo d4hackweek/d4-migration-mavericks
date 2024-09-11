@@ -12,7 +12,7 @@ Accurate population data are necessary for effective response and recovery after
 
 Our project focuses on using Census demographic data, CalFire wildfire data, various datasets that measure migration, including University of California Consumer Credit Panel (UC-CCP). By integrating hazard (wildfire) data with demographic and migration data, we can begin to explain and simulate movement patterns of populations affected by wildfire. We also aim to understanding how (1) federal vulnerability measures map on to migration flows and (2) the efforts of hazard mitigation and community/government capacity in both places of origin and destination.
 
-We used the D4 Hack Week to plan out data integration needs, list tasks for data and modeling needs, and established work flows for the needed analysis. We also used this time to explore issues with data integration, and learn more and incorporate machine learning to train a nueral network to determine post-wildfire migration.
+We used the D4 Hack Week to plan out data integration needs, list tasks for data and modeling needs, and established work flows for the needed analysis. We also used this time to explore issues with data integration, and learn more and incorporate machine learning to train a nueral network model to determine post-wildfire migration.
 
 ### Collaborators
 
@@ -24,10 +24,15 @@ We used the D4 Hack Week to plan out data integration needs, list tasks for data
 
 ### The Problem
 
+This project seeks to tackle understandings of wildfire-induced migration through data integration, behavior simulation (radiation and gravitational modeling), validate models, and build a neural network model.
 
+The technical issues in exploring these data and modeling techniques is (1) incorporating both social and physical data at a variety of scales to the most granular model; (2) understanding behavior through different models while recongizing the need of validation of these movements; (3) find was to use machine learning techniques that are condusive with the data to better train simulation outputs to recognize possible migration patterns with robustness and rigor; (4) addressing roadblocks in assessing the social implication and governance capacity that lead to increased vulnerability for certain displaced populations.
 
+Overcoming these obsticles to establishing sound modeling for simulated and realized migration flows has two potential positive outcomes:
 
-Provide a few sentences describing the problem are you going to explore. If this is a technical exploration of software or data science methods, explain why this work is important in a broader context and specific applications of this work.
+1. Demographers and other social science researchers can work alongside climatologists, meteorologists, and other related weather researchers to develop similar models for understanding migration flows and displacement post-natural hazard.
+
+2. Decision makers can used simulated models to better plan for migration flows, including investments in resources to location that may not have adaptable capacity to meet newly displaced populations.  
 
 ## Data and Methods
 
