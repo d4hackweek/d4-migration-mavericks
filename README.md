@@ -8,19 +8,23 @@ This project focuses on addressing questions around migration and displacement o
 2. What ar ethe characteristics of those displaced?
 3. What is the difference between mitigation efforts and capacity in places of origin and destination of displaced populations?
 
+Accurate population data are necessary for effective response and recovery after a disaster. Standard approaches to population estimation cannot necessarily be implemented after natural disasters, as they rely on systems that may be interrupted or unavailable. Disasters are growing in frequency and severity, magnifying an unmet need for tools to rapidly and accurately assess migration impacts of various sudden onset disasters. We compare several alternative methods for predicting migration destinations of displaced persons, and assess their performance in the case of two major wildfires in California. We plan on using datasets focused on population movements post-wildfire: the Camp Fire (2018) and Tubbs & Related Fires (2017).
 
+Our project focuses on using Census demographic data, CalFire wildfire data, various datasets that measure migration, including University of California Consumer Credit Panel (UC-CCP). By integrating hazard (wildfire) data with demographic and migration data, we can begin to explain and simulate movement patterns of populations affected by wildfire. We also aim to understanding how (1) federal vulnerability measures map on to migration flows and (2) the efforts of hazard mitigation and community/government capacity in both places of origin and destination.
 
-Provide a brief introduction describing the proposed work. Be sure to also decribe what skills team members will get to learn and practice as part of this project.
+We used the D4 Hack Week to plan out data integration needs, list tasks for data and modeling needs, and established work flows for the needed analysis. We also used this time to explore issues with data integration, and learn more and incorporate machine learning to train a nueral network to determine post-wildfire migration.
 
 ### Collaborators
 
-| Name  | Role |
-| ------------- | ------------- |
-| Ethan | Project and Manuscript Lead |
-| Mary Angelica | Project and Manuscript Champion |
-| Sameer | Project Support and Manuscript Co-Author |
+| Name  | Role | Contributions |
+| ------------- | ------------- | ------------- |
+| Ethan | Project and Manuscript Lead | Data Integration and Model Building; Migration Assessments |
+| Mary Angelica | Project and Manuscript Champion | Social Vulnerability, Governance Dimensions, Manuscript Planning, Data and Modeling Assessments |
+| Sameer | Project Support and Manuscript Co-Author | Manuscript Development, Data and Modeling Assessments |
 
 ### The Problem
+
+
 
 
 Provide a few sentences describing the problem are you going to explore. If this is a technical exploration of software or data science methods, explain why this work is important in a broader context and specific applications of this work.
