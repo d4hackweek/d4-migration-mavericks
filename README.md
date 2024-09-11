@@ -57,8 +57,6 @@ We will use the following datasets:
 1. Parcel Data
 2. NC-CCP Data
 
-*Validation on Migration - Independent Prediction*
-
 
 Briefly describe and provide citations for the data that will be used (size, format, how to access).
 
@@ -85,15 +83,15 @@ We are interested in measuring accuracy and generating expected flows to possibl
 Project Data Goal: Production of three datasets: (1) origin migration; (2) destination dataset; (3) errors dataset
 
 Goals Per Day:
-* Day 1 (Monday)
+Day 1 (Monday)
 - Begin project scoping
 
-* Day 2 (Tuesday):
+Day 2 (Tuesday):
 - Complete project scoping
 - Draw outline of dataset production for the project
 - Start data integration
 
-* Day 3 (Wednesday):
+Day 3 (Wednesday):
 - Data integration ~ disaster perimeter, displaced *N*
 - Data integration ~ *a posteriori* predicted destinations
 - Data integration ~ *a priori* predicted destinations
@@ -101,7 +99,7 @@ Goals Per Day:
 - Work with floater on code for ML based classification from UC-CCP
 - Draft slides (methods, challenges, and findings)
 
-* Day 4 (Thursday)
+Day 4 (Thursday)
 - Deliver slides
 
 ### Tasks
